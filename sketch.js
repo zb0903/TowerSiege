@@ -63,11 +63,11 @@ function setup() {
   World.add(world,ball);
 
   slingShot = new Slingshot(this.ball,{x:100,y:200});
-  block100= new Block(100,100,30,50)
-  block101= new Block(100,100,30,50)
-  block102= new Block(100,100,30,50)
-  block103= new Block(100,100,30,50)
-  block104= new Block(100,100,30,50)
+  block100= new Block(150,100,30,50)
+  block101= new Block(150,100,30,50)
+  block102= new Block(150,100,30,50)
+  block103= new Block(150,100,30,50)
+  block104= new Block(150,100,30,50)
 }
 
 function draw() {
